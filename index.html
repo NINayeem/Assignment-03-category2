@@ -43,9 +43,14 @@
       <div class="bg-gradient-to-r bg-gray-400 from-white ml-7">
         <nav>
           <div class="navbar ">
-              <div class="navbar-start">
+              <div class="navbar-start w-[100%] lg:w-auto justify-between lg:justify-start flex-row-reverse lg:flex-row">
+                <!--    flex-flow: row-reverse;
+    width: 100%;
+    background: red;
+    flex: 1;
+    justify-content: space-between;-->
                 <div class="dropdown">
-                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden justify-end ">
+                  <div tabindex="0" role="button" class="btn btn-ghost lg:hidden  ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-5 w-5"
@@ -76,13 +81,13 @@
                   <li><a>Contact us</a></li>
                 </ul>
               </div>
-              <div class="gap-2 ">
-                  <i class="fa-solid fa-magnifying-glass hidden lg:block ml-44"></i>
-                  <i class="fa-solid fa-cart-shopping hidden lg:block"></i>
+              <div class="gap-2 hidden lg:block ">
+                  <i class="fa-solid fa-magnifying-glass  ml-44"></i>
+                  <i class="fa-solid fa-cart-shopping "></i>
               </div>
-              <div class=" navbar-end gap-3">
-                <a class=" btn btn-outline hidden lg:block ">Login</a>
-                <a class="btn  hidden lg:block bg-[#179800] text-white align-middle">Register</a>
+              <div class=" navbar-end  hidden lg:block gap-3">
+                <a class=" btn btn-outline  ">Login</a>
+                <a class="btn   bg-[#179800] text-white align-middle">Register</a>
               </div>
             </div>
 
@@ -105,11 +110,11 @@
 
       </div>
           <!-- This is Extra part-->
-           <h2 class="mt-4 mb-4 ml-7">Pograming Hero Extra part </h2>
+           <h2 class="mt-4 mb-4 ml-12 font-bold text-3xl">Pograming Hero Extra part </h2>
            <div class="diff aspect-[16/9] ml-4 mt-6 lg:mt-8 ml-6 ">
             <div class="diff-item-1">
               <div class="bg-primary text-primary-content grid place-content-center text-9xl font-black">
-                Batch
+                PH
               </div>
             </div>
             <div class="diff-item-2">
@@ -184,16 +189,16 @@
             </div>
 
          <!-- This is grid banner-->
-          <div class="bg-blue-200 w-27 mt-12 ml-10 grid lg:grid-cols-2">
+          <div class="bg-blue-200 w-27 mt-12 ml-10 grid lg:grid-cols-2 ">
             <!-- banner img right section -->
-             <div class="bg bg-gradient-to-r bg-green-500 bg-green-200 bg-green-50">
+             <div class="bg bg-gradient-to-r bg-green-500 bg-green-200 bg-green-50 relative">
               <div>
-                <h2 class="text-white text-2xl font-bold mt-14 ml-9 lg:text-5xl mt-40">30 % Off</h2>
-                <P class="ml-9 mt-4">Discover a world of treats, toys, and essentials handpicked for </P>
-              <button class="btn ml-9 mt-10">Buy now </button>
+                <h2 class="text-white text- font-bold m ml-9 lg:text-5xl mt-40">30 % Off</h2>
+                <P class="mt-p">Discover a world of treats, toys, and essentials handpicked for </P>
+              <button class="btn ml-9 mt-">Buy now </button>
               </div>
-              <div>
-                <img class="ml-36 lg:mt-96 ml-80" src="c2-assets/vegetable-offer.png" alt="">
+              <div class="">
+                <img class="absolute right-0 bottom-0" src="c2-assets/vegetable-offer.png" alt="">
               </div>
 
 <!--first pare closing-->
